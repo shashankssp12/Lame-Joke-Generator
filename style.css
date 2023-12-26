@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(255,111,179,1) 25%, rgba(203,112,232,1) 71%, rgba(246,252,246,1) 100%);
+    /* background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 1%, rgba(203,112,232,1) 51%, rgba(246,252,246,1) 100%); */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+.container{
+    background-color: #fff;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 50px 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+
+}
+.container h2{
+    font-size: 20px;
+    opacity: .5;
+    margin: 0;
+    
+}
+.joke{
+    font-size: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+    /* line-height: 10px; */
+
+
+
+}
+.btn{
+    border: none;
+    background-color: #9f86e0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 14px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .7s;
+    font-size: 16px;
+}
+.btn:active{
+    /* nice effect */
+    transform: scale(.98);
+}
+.btn:focus{
+    outline: 0;/*No impact  */
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    /* transform: translate(50px); */
+
+}
